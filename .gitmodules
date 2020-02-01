@@ -1,0 +1,3 @@
+[submodule "Unity_MetaBalls_Liquids"]
+	path = WaterVR/Assets/Unity_MetaBalls_Liquids
+	url = https://github.com/Nesh108/Unity_MetaBalls_Liquids.git
