@@ -1,0 +1,16 @@
+{
+    "diffuse_particle_id_filedata": "",
+    "diffuse_particle_lifetime_filedata": "",
+    "diffuse_particle_position_filedata": "",
+    "diffuse_particle_type_filedata": "",
+    "diffuse_particle_velocity_filedata": "",
+    "frame": 100,
+    "frame_end": 100,
+    "frame_id": 99,
+    "frame_start": 1,
+    "last_frame_id": 99,
+    "marker_particle_position_filedata": "marker_particle_position.data",
+    "marker_particle_velocity_filedata": "marker_particle_velocity.data",
+    "num_diffuse_particles": 0,
+    "num_marker_particles": 725717
+}

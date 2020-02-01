@@ -1,0 +1,849 @@
+{
+    "domain_data": {
+        "advanced": {
+            "CFL_condition_number": {
+                "data": 1,
+                "is_animated": false
+            },
+            "PICFLIP_ratio": {
+                "data": 0.05000000074505806,
+                "is_animated": false
+            },
+            "disable_changing_topology_warning": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_adaptive_obstacle_time_stepping": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_asynchronous_meshing": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_extreme_velocity_removal": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_gpu_features": {
+                "data": true,
+                "is_animated": false
+            },
+            "jitter_surface_particles": {
+                "data": false,
+                "is_animated": false
+            },
+            "min_max_time_steps_per_frame": {
+                "data": [
+                    6,
+                    24
+                ],
+                "is_animated": false
+            },
+            "num_threads_auto_detect": 12,
+            "num_threads_fixed": {
+                "data": 1,
+                "is_animated": false
+            },
+            "particle_jitter_factor": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "precompute_static_obstacles": {
+                "data": true,
+                "is_animated": false
+            },
+            "reserve_temporary_grids": {
+                "data": true,
+                "is_animated": false
+            },
+            "threading_mode": {
+                "data": "THREADING_MODE_AUTO_DETECT",
+                "is_animated": false
+            }
+        },
+        "debug": {
+            "debug_grid_offsets": {
+                "data": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "is_animated": false
+            },
+            "display_console_output": {
+                "data": false,
+                "is_animated": false
+            },
+            "display_simulation_grid": {
+                "data": false,
+                "is_animated": false
+            },
+            "enabled_debug_grids": {
+                "data": [
+                    true,
+                    true,
+                    true
+                ],
+                "is_animated": false
+            },
+            "export_fluid_particles": {
+                "data": false,
+                "is_animated": false
+            },
+            "export_internal_obstacle_mesh": {
+                "data": false,
+                "is_animated": false
+            },
+            "fluid_particle_gradient_mode": {
+                "data": "GRADIENT_RGB",
+                "is_animated": false
+            },
+            "grid_display_mode": {
+                "data": "GRID_DISPLAY_SIMULATION",
+                "is_animated": false
+            },
+            "grid_display_scale": {
+                "data": 1,
+                "is_animated": false
+            },
+            "high_speed_particle_color": {
+                "data": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "is_animated": false
+            },
+            "low_speed_particle_color": {
+                "data": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "is_animated": false
+            },
+            "max_gradient_speed": {
+                "data": 5.0,
+                "is_animated": false
+            },
+            "min_gradient_speed": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "particle_size": {
+                "data": 1,
+                "is_animated": false
+            },
+            "snap_offsets_to_grid": {
+                "data": true,
+                "is_animated": false
+            },
+            "x_grid_color": {
+                "data": [
+                    0.5,
+                    0.0,
+                    0.0
+                ],
+                "is_animated": false
+            },
+            "y_grid_color": {
+                "data": [
+                    0.0,
+                    0.5,
+                    0.0
+                ],
+                "is_animated": false
+            },
+            "z_grid_color": {
+                "data": [
+                    0.0,
+                    0.0,
+                    0.5
+                ],
+                "is_animated": false
+            }
+        },
+        "initialize": {
+            "bbox": {
+                "x": -2.375943422317505,
+                "xdim": 5.143596172332764,
+                "y": -2.298884391784668,
+                "ydim": 4.449210689067841,
+                "z": -0.004524350166320801,
+                "zdim": 3.4719274163246157
+            },
+            "delete_outdated_meshes": true,
+            "delete_outdated_savestates": true,
+            "dx": 0.025717980861663818,
+            "enable_savestates": true,
+            "frame_end": 100,
+            "frame_start": 1,
+            "gpu_device": "",
+            "isize": 200,
+            "jsize": 173,
+            "ksize": 135,
+            "logfile_name": "FLIPFluidBeaker.065.txt",
+            "name": "Domain",
+            "preview_dx": 0.051435961723327636,
+            "savestate_interval": 50,
+            "scale": 1.0
+        },
+        "materials": {
+            "surface_material": {
+                "data": "MATERIAL_NONE",
+                "is_animated": false
+            },
+            "whitewater_bubble_material": {
+                "data": "MATERIAL_NONE",
+                "is_animated": false
+            },
+            "whitewater_dust_material": {
+                "data": "MATERIAL_NONE",
+                "is_animated": false
+            },
+            "whitewater_foam_material": {
+                "data": "MATERIAL_NONE",
+                "is_animated": false
+            },
+            "whitewater_spray_material": {
+                "data": "MATERIAL_NONE",
+                "is_animated": false
+            }
+        },
+        "render": {
+            "bubble_particle_object_mode": {
+                "data": "WHITEWATER_PARTICLE_ICOSPHERE",
+                "is_animated": false
+            },
+            "bubble_particle_scale": {
+                "data": 0.03999999910593033,
+                "is_animated": false
+            },
+            "dust_particle_object_mode": {
+                "data": "WHITEWATER_PARTICLE_ICOSPHERE",
+                "is_animated": false
+            },
+            "dust_particle_scale": {
+                "data": 0.03999999910593033,
+                "is_animated": false
+            },
+            "foam_particle_object_mode": {
+                "data": "WHITEWATER_PARTICLE_ICOSPHERE",
+                "is_animated": false
+            },
+            "foam_particle_scale": {
+                "data": 0.03999999910593033,
+                "is_animated": false
+            },
+            "only_display_bubble_in_render": {
+                "data": true,
+                "is_animated": false
+            },
+            "only_display_dust_in_render": {
+                "data": true,
+                "is_animated": false
+            },
+            "only_display_foam_in_render": {
+                "data": true,
+                "is_animated": false
+            },
+            "only_display_spray_in_render": {
+                "data": true,
+                "is_animated": false
+            },
+            "only_display_whitewater_in_render": {
+                "data": true,
+                "is_animated": false
+            },
+            "render_bubble_pct": {
+                "data": 100,
+                "is_animated": false
+            },
+            "render_display": {
+                "data": "DISPLAY_FINAL",
+                "is_animated": false
+            },
+            "render_dust_pct": {
+                "data": 100,
+                "is_animated": false
+            },
+            "render_foam_pct": {
+                "data": 100,
+                "is_animated": false
+            },
+            "render_spray_pct": {
+                "data": 100,
+                "is_animated": false
+            },
+            "render_surface_motion_blur": {
+                "data": true,
+                "is_animated": false
+            },
+            "render_whitewater_pct": {
+                "data": 100,
+                "is_animated": false
+            },
+            "spray_particle_object_mode": {
+                "data": "WHITEWATER_PARTICLE_ICOSPHERE",
+                "is_animated": false
+            },
+            "spray_particle_scale": {
+                "data": 0.03999999910593033,
+                "is_animated": false
+            },
+            "viewport_bubble_pct": {
+                "data": 5,
+                "is_animated": false
+            },
+            "viewport_display": {
+                "data": "DISPLAY_FINAL",
+                "is_animated": false
+            },
+            "viewport_dust_pct": {
+                "data": 5,
+                "is_animated": false
+            },
+            "viewport_foam_pct": {
+                "data": 5,
+                "is_animated": false
+            },
+            "viewport_spray_pct": {
+                "data": 5,
+                "is_animated": false
+            },
+            "viewport_whitewater_pct": {
+                "data": 5,
+                "is_animated": false
+            },
+            "whitewater_particle_object_mode": {
+                "data": "WHITEWATER_PARTICLE_ICOSPHERE",
+                "is_animated": false
+            },
+            "whitewater_particle_object_settings_mode": {
+                "data": "WHITEWATER_OBJECT_SETTINGS_WHITEWATER",
+                "is_animated": false
+            },
+            "whitewater_particle_scale": {
+                "data": 0.03999999910593033,
+                "is_animated": false
+            },
+            "whitewater_render_display": {
+                "data": "DISPLAY_FINAL",
+                "is_animated": false
+            },
+            "whitewater_view_settings_mode": {
+                "data": "VIEW_SETTINGS_WHITEWATER",
+                "is_animated": false
+            },
+            "whitewater_viewport_display": {
+                "data": "DISPLAY_FINAL",
+                "is_animated": false
+            }
+        },
+        "simulation": {
+            "auto_preview_resolution": {
+                "data": true,
+                "is_animated": false
+            },
+            "delete_outdated_meshes": {
+                "data": true,
+                "is_animated": false
+            },
+            "delete_outdated_savestates": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_savestates": {
+                "data": true,
+                "is_animated": false
+            },
+            "end_time": {
+                "data": 4.166666507720947,
+                "is_animated": false
+            },
+            "frame_range_custom": {
+                "data": [
+                    1,
+                    250
+                ],
+                "is_animated": false
+            },
+            "frame_range_mode": {
+                "data": "FRAME_RANGE_TIMELINE",
+                "is_animated": false
+            },
+            "frames_per_second": {
+                "data": 24.0,
+                "is_animated": false
+            },
+            "lock_cell_size": {
+                "data": false,
+                "is_animated": false
+            },
+            "preview_resolution": {
+                "data": 100,
+                "is_animated": false
+            },
+            "resolution": {
+                "data": 200,
+                "is_animated": false
+            },
+            "savestate_interval": {
+                "data": 50,
+                "is_animated": false
+            },
+            "start_time": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "time_scale": {
+                "data": 2.0,
+                "is_animated": false
+            },
+            "update_settings_on_resume": {
+                "data": true,
+                "is_animated": false
+            },
+            "use_fps": {
+                "data": true,
+                "is_animated": false
+            }
+        },
+        "stats": {
+            "cache_info_type": {
+                "data": "CACHE_INFO",
+                "is_animated": false
+            },
+            "csv_region_format": {
+                "data": "CSV_REGION_US",
+                "is_animated": false
+            },
+            "lock_info_frame_to_timeline": {
+                "data": true,
+                "is_animated": false
+            }
+        },
+        "surface": {
+            "compute_chunk_mode": {
+                "data": "COMPUTE_CHUNK_MODE_AUTO",
+                "is_animated": false
+            },
+            "compute_chunks_auto": 1,
+            "compute_chunks_fixed": {
+                "data": 1,
+                "is_animated": false
+            },
+            "enable_meshing_offset": {
+                "data": true,
+                "is_animated": false
+            },
+            "export_animated_meshing_volume_object": {
+                "data": false,
+                "is_animated": false
+            },
+            "generate_motion_blur_data": {
+                "data": false,
+                "is_animated": false
+            },
+            "invert_contact_normals": {
+                "data": false,
+                "is_animated": false
+            },
+            "meshing_volume_mode": {
+                "data": "MESHING_VOLUME_MODE_DOMAIN",
+                "is_animated": false
+            },
+            "meshing_volume_object": "",
+            "native_particle_scale": 3.0,
+            "obstacle_meshing_mode": {
+                "data": "MESHING_MODE_INSIDE_SURFACE",
+                "is_animated": false
+            },
+            "particle_scale": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "remove_mesh_near_domain": {
+                "data": false,
+                "is_animated": false
+            },
+            "remove_mesh_near_domain_distance": {
+                "data": 1,
+                "is_animated": false
+            },
+            "smoothing_iterations": {
+                "data": 2,
+                "is_animated": false
+            },
+            "smoothing_value": {
+                "data": 0.5,
+                "is_animated": false
+            },
+            "subdivisions": {
+                "data": 0,
+                "is_animated": false
+            }
+        },
+        "whitewater": {
+            "bubble_boundary_active": {
+                "data": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    false,
+                    true
+                ],
+                "is_animated": false
+            },
+            "bubble_boundary_behaviour": {
+                "data": "BEHAVIOUR_COLLIDE",
+                "is_animated": false
+            },
+            "bubble_bouyancy_coefficient": {
+                "data": 2.5,
+                "is_animated": false
+            },
+            "bubble_drag_coefficient": {
+                "data": 0.800000011920929,
+                "is_animated": false
+            },
+            "bubble_lifespan_modifier": {
+                "data": 4.0,
+                "is_animated": false
+            },
+            "dust_bouyancy_coefficient": {
+                "data": -3.0,
+                "is_animated": false
+            },
+            "dust_drag_coefficient": {
+                "data": 0.75,
+                "is_animated": false
+            },
+            "dust_emission_rate": {
+                "data": 175.0,
+                "is_animated": false
+            },
+            "dust_lifespan_modifier": {
+                "data": 2.0,
+                "is_animated": false
+            },
+            "enable_bubbles": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_dust": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_dust_emission_near_boundary": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_foam": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_spray": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_whitewater_emission": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_whitewater_emission_near_boundary": {
+                "data": true,
+                "is_animated": false
+            },
+            "enable_whitewater_simulation": {
+                "data": false,
+                "is_animated": false
+            },
+            "foam_advection_strength": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "foam_boundary_active": {
+                "data": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    false,
+                    true
+                ],
+                "is_animated": false
+            },
+            "foam_boundary_behaviour": {
+                "data": "BEHAVIOUR_COLLIDE",
+                "is_animated": false
+            },
+            "foam_layer_depth": {
+                "data": 0.800000011920929,
+                "is_animated": false
+            },
+            "foam_layer_offset": {
+                "data": 0.5,
+                "is_animated": false
+            },
+            "foam_lifespan_modifier": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "foam_preservation_rate": {
+                "data": 0.75,
+                "is_animated": false
+            },
+            "generate_whitewater_motion_blur_data": {
+                "data": false,
+                "is_animated": false
+            },
+            "max_whitewater_particles": {
+                "data": 12.0,
+                "is_animated": false
+            },
+            "min_max_foam_density": {
+                "data": [
+                    20,
+                    45
+                ],
+                "is_animated": false
+            },
+            "min_max_whitewater_energy_speed": {
+                "data": [
+                    0.20000000298023224,
+                    3.0
+                ],
+                "is_animated": false
+            },
+            "min_max_whitewater_lifespan": {
+                "data": [
+                    0.5,
+                    6.0
+                ],
+                "is_animated": false
+            },
+            "min_max_whitewater_turbulence": {
+                "data": [
+                    100.0,
+                    200.0
+                ],
+                "is_animated": false
+            },
+            "min_max_whitewater_wavecrest_curvature": {
+                "data": [
+                    0.4000000059604645,
+                    1.0
+                ],
+                "is_animated": false
+            },
+            "obstacle_influence_base_level": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "obstacle_influence_decay_rate": {
+                "data": 5.0,
+                "is_animated": false
+            },
+            "preserve_foam": {
+                "data": true,
+                "is_animated": false
+            },
+            "spray_boundary_active": {
+                "data": [
+                    true,
+                    true,
+                    true,
+                    true,
+                    false,
+                    true
+                ],
+                "is_animated": false
+            },
+            "spray_boundary_behaviour": {
+                "data": "BEHAVIOUR_COLLIDE",
+                "is_animated": false
+            },
+            "spray_drag_coefficient": {
+                "data": 3.0,
+                "is_animated": false
+            },
+            "spray_emission_speed": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "spray_lifespan_modifier": {
+                "data": 5.0,
+                "is_animated": false
+            },
+            "turbulence_emission_rate": {
+                "data": 175.0,
+                "is_animated": false
+            },
+            "wavecrest_emission_rate": {
+                "data": 175.0,
+                "is_animated": false
+            },
+            "whitewater_emitter_generation_rate": {
+                "data": 100,
+                "is_animated": false
+            },
+            "whitewater_lifespan_variance": {
+                "data": 3.0,
+                "is_animated": false
+            }
+        },
+        "world": {
+            "boundary_friction": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "enable_real_world_size": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_sheet_seeding": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_surface_tension": {
+                "data": false,
+                "is_animated": false
+            },
+            "enable_viscosity": {
+                "data": true,
+                "is_animated": false
+            },
+            "gravity": {
+                "data": [
+                    0.0,
+                    0.0,
+                    -9.8100004196167
+                ],
+                "is_animated": false
+            },
+            "gravity_type": {
+                "data": "GRAVITY_TYPE_SCENE",
+                "is_animated": false
+            },
+            "maximum_surface_tension_cfl": 5.0,
+            "minimum_surface_tension_cfl": 0.25,
+            "native_surface_tension_scale": 0.10000000149011612,
+            "real_world_size": {
+                "data": 10.0,
+                "is_animated": false
+            },
+            "sheet_fill_rate": {
+                "data": 0.5,
+                "is_animated": false
+            },
+            "sheet_fill_threshold": {
+                "data": 0.10000000149011612,
+                "is_animated": false
+            },
+            "surface_tension": {
+                "data": 0.25,
+                "is_animated": false
+            },
+            "surface_tension_accuracy": {
+                "data": 90,
+                "is_animated": false
+            },
+            "viscosity": {
+                "data": 0.009999999776482582,
+                "is_animated": false
+            }
+        }
+    },
+    "fluid_data": [
+        {
+            "append_object_velocity": {
+                "data": false,
+                "is_animated": false
+            },
+            "append_object_velocity_influence": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "export_animated_mesh": {
+                "data": false,
+                "is_animated": false
+            },
+            "export_animated_target": {
+                "data": false,
+                "is_animated": false
+            },
+            "fluid_velocity_mode": {
+                "data": "FLUID_VELOCITY_MANUAL",
+                "is_animated": false
+            },
+            "frame_offset": {
+                "data": 0,
+                "is_animated": false
+            },
+            "frame_offset_type": {
+                "data": "OFFSET_TYPE_FRAME",
+                "is_animated": false
+            },
+            "initial_speed": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "initial_velocity": {
+                "data": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "is_animated": false
+            },
+            "name": "Fluid",
+            "target_object": "",
+            "timeline_offset": {
+                "data": 0,
+                "is_animated": false
+            }
+        }
+    ],
+    "inflow_data": [],
+    "obstacle_data": [
+        {
+            "dust_emission_strength": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "export_animated_mesh": {
+                "data": true,
+                "is_animated": false
+            },
+            "friction": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "is_enabled": {
+                "data": true,
+                "is_animated": false
+            },
+            "is_inversed": {
+                "data": false,
+                "is_animated": false
+            },
+            "mesh_expansion": {
+                "data": 0.0,
+                "is_animated": false
+            },
+            "name": "Cup",
+            "sheeting_strength": {
+                "data": 1.0,
+                "is_animated": false
+            },
+            "whitewater_influence": {
+                "data": 1.0,
+                "is_animated": false
+            }
+        }
+    ],
+    "outflow_data": []
+}

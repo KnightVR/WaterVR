@@ -1,0 +1,2271 @@
+------------------------------------------------------------
+Fluid Engine Version 0.0.7 Demo 27-NOV-2019
+------------------------------------------------------------
+26-Jan-2020 00h04m31s enablePreviewMeshOutput: 0.1875
+26-Jan-2020 00h04m31s setDomainOffset: -3 -3 0
+26-Jan-2020 00h04m31s setDomainScale: 1
+26-Jan-2020 00h04m31s disableDiffuseMaterialOutput
+26-Jan-2020 00h04m31s addBodyForce: 0 0 -9.81
+26-Jan-2020 00h04m31s setViscosity: 5
+26-Jan-2020 00h04m31s setBoundaryFriction: 0
+26-Jan-2020 00h04m31s setSurfaceSubdivisionLevel: 1
+26-Jan-2020 00h04m31s setNumPolygonizerSlices: 1
+26-Jan-2020 00h04m31s setMarkerParticleScale: 3
+26-Jan-2020 00h04m31s setSurfaceSmoothingValue: 0.5
+26-Jan-2020 00h04m31s setSurfaceSmoothingIterations: 2
+26-Jan-2020 00h04m31s enableObstacleMeshingOffset
+26-Jan-2020 00h04m31s setObstacleMeshingOffset: 0.25
+26-Jan-2020 00h04m31s disableRemoveSurfaceNearDomain
+26-Jan-2020 00h04m31s setRemoveSurfaceNearDomainDistance: 0
+26-Jan-2020 00h04m31s disableInvertedContactNormals
+26-Jan-2020 00h04m31s disableSurfaceMotionBlur
+26-Jan-2020 00h04m31s setMinTimeStepsPerFrame: 5
+26-Jan-2020 00h04m31s setMaxTimeStepsPerFrame: 24
+26-Jan-2020 00h04m31s enableAdaptiveObstacleTimeStepping
+26-Jan-2020 00h04m31s setMarkerParticleJitterFactor: 1
+26-Jan-2020 00h04m31s disableJitterSurfaceMarkerParticles
+26-Jan-2020 00h04m31s setPICFLIPRatio: 0.05
+26-Jan-2020 00h04m31s setCFLConditionNumber: 5
+26-Jan-2020 00h04m31s enableExtremeVelocityRemoval
+26-Jan-2020 00h04m31s setMaxThreadCount: 12
+26-Jan-2020 00h04m31s enableOpenCLScalarField
+26-Jan-2020 00h04m31s enableOpenCLParticleAdvection
+26-Jan-2020 00h04m31s setPreferredGPUDevice: 
+26-Jan-2020 00h04m31s enableAsynchronousMeshing
+26-Jan-2020 00h04m31s enableStaticSolidLevelSetPrecomputation
+26-Jan-2020 00h04m31s enableTemporaryMeshLevelSet
+26-Jan-2020 00h04m31s disableFluidParticleOutput
+26-Jan-2020 00h04m31s disableInternalObstacleMeshOutput
+26-Jan-2020 00h04m31s setMeshOutputFormatAsBOBJ
+26-Jan-2020 00h04m31s addMeshFluid: 0	0	0
+26-Jan-2020 00h04m31s addMeshObstacle: 0x2c2abac5ae0
+26-Jan-2020 00h04m31s initialize
+
+Initializing Simulation:
+------------------------------------------------------------
+26-Jan-2020 00h04m31s
+
+Initializing Simulation Grids:
+	Grid Dimensions: 65 x 65 x 44
+	Cell Size:       0.0923077
+	Constructing MACVelocityField: 	0
+	Constructing Level Sets:       	0.0469
+	Constructing Weight Grid:      	0
+------------------------------------------------------------
+26-Jan-2020 00h04m31s
+
+Frame: 0 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m31s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m35s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m35s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m35s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m35s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m35s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m35s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m35s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m35s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m35s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m35s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m35s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m35s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m35s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m35s BEGIN       Generate Output Data
+26-Jan-2020 00h04m35s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m35s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6063
+
+Pressure Solver Iterations: 0
+Estimated Error: 0.0
+
+Step Update Time:   3.812
+
+------------------------------------------------------------
+26-Jan-2020 00h04m35s
+
+Frame: 0 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m35s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m35s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m35s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m35s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m35s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m35s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m35s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m35s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m35s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m35s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m35s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m35s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m35s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m35s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m35s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m35s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m35s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m35s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m35s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7119
+
+Pressure Solver Iterations: 26
+Estimated Error: 3.90826e-010
+
+Viscosity Solver Iterations: 29
+Estimated Error: 0.000163454
+
+Step Update Time:   0.343
+
+------------------------------------------------------------
+26-Jan-2020 00h04m35s
+
+Frame: 0 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m35s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m35s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m35s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m35s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m35s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m36s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m36s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m36s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m36s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m36s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m36s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m36s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m36s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m36s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m36s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m36s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7119
+
+Pressure Solver Iterations: 26
+Estimated Error: 4.96576e-010
+
+Viscosity Solver Iterations: 31
+Estimated Error: 0.000236032
+
+Step Update Time:   0.375
+
+------------------------------------------------------------
+26-Jan-2020 00h04m36s
+
+Frame: 0 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m36s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m36s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m36s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m36s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m36s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m36s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m36s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m36s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m36s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m36s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m36s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m36s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m36s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m36s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m36s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m36s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7119
+
+Pressure Solver Iterations: 25
+Estimated Error: 1.85188e-009
+
+Viscosity Solver Iterations: 34
+Estimated Error: 0.000300963
+
+Step Update Time:   0.327
+
+------------------------------------------------------------
+26-Jan-2020 00h04m36s
+
+Frame: 0 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m36s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m36s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m36s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m36s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m36s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m36s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m36s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m36s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m36s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m36s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m36s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m36s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m36s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m36s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m36s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m36s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m36s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m36s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7066
+
+Pressure Solver Iterations: 25
+Estimated Error: 1.93565e-009
+
+Viscosity Solver Iterations: 39
+Estimated Error: 0.000439958
+
+Step Update Time:   0.36
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 3.714s    71.2%  |||||||||||||||||||||||||||||||||||||||||||
+Update Liquid Level Set                 0.125s     2.4%  ||
+Advect Velocity Field                   0.392s     7.5%  |||||
+Save Velocity Field                     0.016s     0.3%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.000s     0.0%  |
+Apply Viscosity                         0.423s     8.1%  |||||
+Solve Pressure System                   0.345s     6.6%  ||||
+Constrain Velocity Fields               0.016s     0.3%  |
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.015s     0.3%  |
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.046s     0.9%  |
+Update Fluid Objects                    0.063s     1.2%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.062s     1.2%  |
+
+Frame Time:   5.218
+Total Time:   5.218
+
+------------------------------------------------------------
+26-Jan-2020 00h04m37s
+
+Frame: 1 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m37s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m37s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m37s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m37s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m37s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m37s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m37s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m37s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m37s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m37s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m37s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m37s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m37s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m37s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m37s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m37s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m37s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m37s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m37s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m37s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m37s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m37s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m37s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m37s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m37s BEGIN       Generate Output Data
+26-Jan-2020 00h04m37s COMPLETE    Generate Output Data
+
+26-Jan-2020 00h04m37s BEGIN       Generate Surface Mesh
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6819
+
+Pressure Solver Iterations: 25
+Estimated Error: 1.92377e-009
+
+Viscosity Solver Iterations: 41
+Estimated Error: 0.000532305
+
+Step Update Time:   0.342
+
+------------------------------------------------------------
+26-Jan-2020 00h04m37s
+
+Frame: 1 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m37s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m37s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m37s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m38s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m38s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m38s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m38s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m38s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m38s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m38s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m38s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m38s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m38s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m38s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m38s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m38s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m38s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6820
+
+Pressure Solver Iterations: 25
+Estimated Error: 1.73365e-009
+
+Viscosity Solver Iterations: 46
+Estimated Error: 0.000544534
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m38s
+
+Frame: 1 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m38s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m38s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m38s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m38s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m38s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m38s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m38s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m38s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m38s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m38s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m38s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m38s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m38s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m38s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m38s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m38s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6833
+
+Pressure Solver Iterations: 25
+Estimated Error: 2.07949e-009
+
+Viscosity Solver Iterations: 50
+Estimated Error: 0.000518827
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m38s
+
+Frame: 1 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m38s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m38s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m38s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m38s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m38s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m38s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m38s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m38s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m38s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m38s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m38s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m39s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m39s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m39s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m39s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m39s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m39s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m39s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6852
+
+Pressure Solver Iterations: 25
+Estimated Error: 2.33649e-009
+
+Viscosity Solver Iterations: 51
+Estimated Error: 0.000665197
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m39s
+
+Frame: 1 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m39s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m39s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m39s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m39s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m39s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m39s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m39s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m39s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m39s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m39s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m39s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m39s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m39s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m39s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m39s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m39s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m39s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m39s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6866
+
+Pressure Solver Iterations: 25
+Estimated Error: 2.70312e-009
+
+Viscosity Solver Iterations: 48
+Estimated Error: 0.00061065
+
+Step Update Time:   0.359
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.031s     1.8%  ||
+Update Liquid Level Set                 0.140s     7.9%  |||||
+Advect Velocity Field                   0.469s    26.6%  ||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.016s     0.9%  |
+Apply Viscosity                         0.532s    30.1%  |||||||||||||||||||
+Solve Pressure System                   0.375s    21.2%  |||||||||||||
+Constrain Velocity Fields               0.047s     2.7%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.015s     0.8%  |
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.078s     4.4%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.063s     3.6%  |||
+
+Frame Time:   1.764
+Total Time:   6.983
+
+------------------------------------------------------------
+26-Jan-2020 00h04m39s
+
+Frame: 2 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m39s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m39s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m39s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m40s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m40s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m40s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m40s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m40s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m40s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m40s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m40s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m40s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m40s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m40s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m40s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m40s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m40s BEGIN       Generate Output Data
+26-Jan-2020 00h04m40s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m40s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6884
+
+Pressure Solver Iterations: 26
+Estimated Error: 1.72801e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.000685502
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m40s
+
+Frame: 2 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m40s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m40s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m40s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m40s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m40s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m40s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m40s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m40s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m40s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m40s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m40s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m40s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m40s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m40s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m40s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m40s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m40s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6898
+
+Pressure Solver Iterations: 26
+Estimated Error: 1.74573e-009
+
+Viscosity Solver Iterations: 44
+Estimated Error: 0.000715368
+
+Step Update Time:   0.375
+
+------------------------------------------------------------
+26-Jan-2020 00h04m40s
+
+Frame: 2 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m40s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m40s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m40s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m40s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m40s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m40s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m40s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m40s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m40s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m40s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m40s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m41s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m41s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m41s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m41s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m41s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m41s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m41s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6911
+
+Pressure Solver Iterations: 26
+Estimated Error: 3.28003e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.000725008
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m41s
+
+Frame: 2 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m41s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m41s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m41s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m41s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m41s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m41s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m41s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m41s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m41s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m41s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m41s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m41s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m41s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m41s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m41s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m41s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6926
+
+Pressure Solver Iterations: 26
+Estimated Error: 3.38366e-009
+
+Viscosity Solver Iterations: 38
+Estimated Error: 0.000772645
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m41s
+
+Frame: 2 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m41s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m41s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m41s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m41s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m41s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m41s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m41s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m41s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m41s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m41s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m41s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m41s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m41s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m41s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m41s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m41s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m41s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m41s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6948
+
+Pressure Solver Iterations: 26
+Estimated Error: 3.04968e-009
+
+Viscosity Solver Iterations: 39
+Estimated Error: 0.000575752
+
+Step Update Time:   0.344
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.032s     1.8%  ||
+Update Liquid Level Set                 0.145s     8.1%  |||||
+Advect Velocity Field                   0.512s    28.8%  ||||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.000s     0.0%  |
+Apply Viscosity                         0.531s    29.8%  ||||||||||||||||||
+Solve Pressure System                   0.385s    21.6%  |||||||||||||
+Constrain Velocity Fields               0.031s     1.7%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.016s     0.9%  |
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.065s     3.6%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.065s     3.6%  |||
+
+Frame Time:   1.781
+Total Time:   8.764
+
+------------------------------------------------------------
+26-Jan-2020 00h04m42s
+
+Frame: 3 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m42s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m42s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m42s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m42s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m42s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m42s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m42s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m42s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m42s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m42s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m42s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m42s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m42s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m42s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m42s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m42s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m42s BEGIN       Generate Output Data
+26-Jan-2020 00h04m42s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m42s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6982
+
+Pressure Solver Iterations: 27
+Estimated Error: 2.0993e-009
+
+Viscosity Solver Iterations: 39
+Estimated Error: 0.000782178
+
+Step Update Time:   0.343
+
+------------------------------------------------------------
+26-Jan-2020 00h04m42s
+
+Frame: 3 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m42s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m42s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m42s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m42s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m42s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m42s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m42s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m42s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m42s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m42s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m42s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m42s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m42s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m42s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m42s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m42s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m43s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m43s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7004
+
+Pressure Solver Iterations: 27
+Estimated Error: 2.62911e-009
+
+Viscosity Solver Iterations: 35
+Estimated Error: 0.000613414
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m43s
+
+Frame: 3 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m43s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m43s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m43s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m43s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m43s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m43s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m43s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m43s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m43s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m43s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m43s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m43s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m43s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m43s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7023
+
+Pressure Solver Iterations: 27
+Estimated Error: 3.54924e-009
+
+Viscosity Solver Iterations: 33
+Estimated Error: 0.000723315
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m43s
+
+Frame: 3 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m43s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m43s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m43s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m43s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m43s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m43s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m43s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m43s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m43s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m43s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m43s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m43s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m43s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m43s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7041
+
+Pressure Solver Iterations: 27
+Estimated Error: 4.58413e-009
+
+Viscosity Solver Iterations: 31
+Estimated Error: 0.000858693
+
+Step Update Time:   0.327
+
+------------------------------------------------------------
+26-Jan-2020 00h04m43s
+
+Frame: 3 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m43s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m43s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m43s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m43s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m43s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m43s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m43s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m43s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m43s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m43s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m43s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m44s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m44s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m44s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m44s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m44s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m44s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m44s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7056
+
+Pressure Solver Iterations: 28
+Estimated Error: 2.86006e-009
+
+Viscosity Solver Iterations: 31
+Estimated Error: 0.000661791
+
+Step Update Time:   0.344
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.032s     1.8%  ||
+Update Liquid Level Set                 0.174s    10.0%  |||||||
+Advect Velocity Field                   0.462s    26.6%  ||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.016s     0.9%  |
+Apply Viscosity                         0.462s    26.6%  ||||||||||||||||
+Solve Pressure System                   0.397s    22.9%  ||||||||||||||
+Constrain Velocity Fields               0.048s     2.8%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.016s     0.9%  |
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.063s     3.6%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.064s     3.7%  |||
+
+Frame Time:   1.734
+Total Time:   10.498
+
+------------------------------------------------------------
+26-Jan-2020 00h04m44s
+
+Frame: 4 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m44s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m44s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m44s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m44s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m44s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m44s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m44s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m44s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m44s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m44s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m44s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m44s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m44s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m44s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m44s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m44s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m44s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m44s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m44s BEGIN       Generate Output Data
+26-Jan-2020 00h04m44s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m44s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7069
+
+Pressure Solver Iterations: 28
+Estimated Error: 3.45633e-009
+
+Viscosity Solver Iterations: 33
+Estimated Error: 0.000974513
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m44s
+
+Frame: 4 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m44s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m44s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m44s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m45s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m45s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m45s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m45s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m45s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m45s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m45s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m45s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m45s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m45s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m45s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m45s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m45s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m45s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7080
+
+Pressure Solver Iterations: 28
+Estimated Error: 2.73491e-009
+
+Viscosity Solver Iterations: 34
+Estimated Error: 0.000765858
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m45s
+
+Frame: 4 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m45s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m45s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m45s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m45s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m45s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m45s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m45s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m45s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m45s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m45s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m45s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m45s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m45s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m45s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m45s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m45s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7086
+
+Pressure Solver Iterations: 28
+Estimated Error: 2.9172e-009
+
+Viscosity Solver Iterations: 31
+Estimated Error: 0.000873123
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m45s
+
+Frame: 4 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m45s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m45s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m45s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m45s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m45s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m45s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m45s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m45s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m45s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m45s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m45s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m45s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m45s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m45s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m45s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m45s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m45s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m45s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7092
+
+Pressure Solver Iterations: 28
+Estimated Error: 2.75629e-009
+
+Viscosity Solver Iterations: 28
+Estimated Error: 0.000972538
+
+Step Update Time:   0.328
+
+------------------------------------------------------------
+26-Jan-2020 00h04m46s
+
+Frame: 4 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m46s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m46s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m46s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m46s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m46s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m46s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m46s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m46s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m46s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m46s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m46s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m46s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m46s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m46s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m46s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m46s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m46s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m46s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m46s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m46s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m46s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m46s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m46s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m46s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7102
+
+Pressure Solver Iterations: 28
+Estimated Error: 3.29587e-009
+
+Viscosity Solver Iterations: 29
+Estimated Error: 0.000727891
+
+Step Update Time:   0.343
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.061s     3.5%  |||
+Update Liquid Level Set                 0.139s     8.0%  |||||
+Advect Velocity Field                   0.449s    25.9%  ||||||||||||||||
+Save Velocity Field                     0.016s     0.9%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.016s     0.9%  |
+Apply Viscosity                         0.464s    26.7%  |||||||||||||||||
+Solve Pressure System                   0.373s    21.5%  |||||||||||||
+Constrain Velocity Fields               0.047s     2.7%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.030s     1.7%  ||
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.063s     3.7%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.016s     0.9%  |
+Generate Surface Mesh                   0.061s     3.5%  |||
+
+Frame Time:   1.735
+Total Time:   12.234
+
+------------------------------------------------------------
+26-Jan-2020 00h04m46s
+
+Frame: 5 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m46s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m46s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m46s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m46s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m46s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m47s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m47s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m47s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m47s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m47s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m47s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m47s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m47s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m47s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m47s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m47s BEGIN       Generate Output Data
+26-Jan-2020 00h04m47s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m47s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7100
+
+Pressure Solver Iterations: 28
+Estimated Error: 3.65134e-009
+
+Viscosity Solver Iterations: 29
+Estimated Error: 0.000797846
+
+Step Update Time:   0.342
+
+------------------------------------------------------------
+26-Jan-2020 00h04m47s
+
+Frame: 5 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m47s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m47s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m47s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m47s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m47s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m47s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m47s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m47s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m47s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m47s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m47s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m47s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m47s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m47s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m47s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7097
+
+Pressure Solver Iterations: 28
+Estimated Error: 3.77935e-009
+
+Viscosity Solver Iterations: 35
+Estimated Error: 0.000836221
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m47s
+
+Frame: 5 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m47s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m47s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m47s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m47s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m47s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m47s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m47s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m47s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m47s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m47s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m47s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m47s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m47s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m47s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m47s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m47s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7080
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.04661e-009
+
+Viscosity Solver Iterations: 39
+Estimated Error: 0.000954853
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m47s
+
+Frame: 5 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m47s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m47s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m47s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m47s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m47s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m48s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m48s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m48s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m48s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m48s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m48s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m48s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m48s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m48s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m48s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m48s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7036
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.31467e-009
+
+Viscosity Solver Iterations: 42
+Estimated Error: 0.00117141
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m48s
+
+Frame: 5 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m48s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m48s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m48s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m48s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m48s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m48s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m48s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m48s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m48s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m48s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m48s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m48s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m48s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m48s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m48s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m48s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m48s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m48s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       7005
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.54524e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.00112836
+
+Step Update Time:   0.359
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.032s     1.8%  ||
+Update Liquid Level Set                 0.144s     8.1%  |||||
+Advect Velocity Field                   0.460s    26.1%  ||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.000s     0.0%  |
+Apply Viscosity                         0.509s    28.9%  ||||||||||||||||||
+Solve Pressure System                   0.398s    22.6%  ||||||||||||||
+Constrain Velocity Fields               0.048s     2.7%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.032s     1.8%  ||
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.078s     4.4%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.064s     3.6%  |||
+
+Frame Time:   1.764
+Total Time:   13.998
+
+------------------------------------------------------------
+26-Jan-2020 00h04m49s
+
+Frame: 6 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m49s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m49s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m49s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m49s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m49s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m49s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m49s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m49s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m49s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m49s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m49s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m49s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m49s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m49s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m49s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m49s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m49s BEGIN       Generate Output Data
+26-Jan-2020 00h04m49s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m49s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6986
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.89332e-009
+
+Viscosity Solver Iterations: 44
+Estimated Error: 0.0011423
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m49s
+
+Frame: 6 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m49s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m49s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m49s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m49s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m49s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m49s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m49s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m49s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m49s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m49s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m49s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m49s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m49s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m49s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m49s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m49s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m49s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m49s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m49s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6967
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.00413e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.00120084
+
+Step Update Time:   0.375
+
+------------------------------------------------------------
+26-Jan-2020 00h04m49s
+
+Frame: 6 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m49s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m49s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m49s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m49s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m49s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m50s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m50s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m50s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m50s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m50s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m50s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m50s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m50s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m50s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m50s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m50s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6960
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.19614e-009
+
+Viscosity Solver Iterations: 49
+Estimated Error: 0.00109989
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m50s
+
+Frame: 6 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m50s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m50s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m50s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m50s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m50s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m50s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m50s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m50s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m50s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m50s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m50s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m50s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m50s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m50s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m50s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m50s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6953
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.0893e-009
+
+Viscosity Solver Iterations: 49
+Estimated Error: 0.00111053
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m50s
+
+Frame: 6 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m50s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m50s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m50s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m50s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m50s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m50s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m50s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m50s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m50s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m50s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m50s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m50s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m50s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m51s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m51s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m51s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m51s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m51s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m51s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m51s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6941
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.95847e-009
+
+Viscosity Solver Iterations: 49
+Estimated Error: 0.00108119
+
+Step Update Time:   0.359
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.017s     0.9%  |
+Update Liquid Level Set                 0.163s     9.0%  ||||||
+Advect Velocity Field                   0.478s    26.4%  ||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.000s     0.0%  |
+Apply Viscosity                         0.593s    32.8%  ||||||||||||||||||||
+Solve Pressure System                   0.378s    20.9%  |||||||||||||
+Constrain Velocity Fields               0.034s     1.9%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.016s     0.9%  |
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.051s     2.8%  ||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.016s     0.9%  |
+Generate Surface Mesh                   0.066s     3.7%  |||
+
+Frame Time:   1.812
+Total Time:   15.811
+
+------------------------------------------------------------
+26-Jan-2020 00h04m51s
+
+Frame: 7 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m51s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m51s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m51s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m51s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m51s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m51s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m51s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m51s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m51s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m51s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m51s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m51s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m51s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m51s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m51s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m51s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m51s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m51s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m51s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m51s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m51s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m51s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m51s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m51s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m51s BEGIN       Generate Output Data
+26-Jan-2020 00h04m51s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m51s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6929
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.45606e-009
+
+Viscosity Solver Iterations: 48
+Estimated Error: 0.00104254
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m51s
+
+Frame: 7 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m51s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m51s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m51s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m51s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m51s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m52s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m52s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m52s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m52s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m52s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m52s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m52s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m52s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m52s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m52s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m52s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m52s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6929
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.89407e-009
+
+Viscosity Solver Iterations: 44
+Estimated Error: 0.000944325
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m52s
+
+Frame: 7 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m52s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m52s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m52s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m52s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m52s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m52s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m52s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m52s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m52s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m52s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m52s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m52s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m52s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m52s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m52s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m52s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6929
+
+Pressure Solver Iterations: 28
+Estimated Error: 4.22495e-009
+
+Viscosity Solver Iterations: 48
+Estimated Error: 0.000801747
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m52s
+
+Frame: 7 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m52s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m52s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m52s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m52s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m52s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m52s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m52s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m52s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m52s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m52s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m52s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m52s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m52s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m53s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m53s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m53s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m53s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m53s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m53s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m53s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6926
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.2716e-009
+
+Viscosity Solver Iterations: 49
+Estimated Error: 0.000968389
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m53s
+
+Frame: 7 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m53s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m53s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m53s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m53s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m53s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m53s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m53s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m53s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m53s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m53s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m53s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m53s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m53s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m53s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m53s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m53s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m53s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m53s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m53s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m53s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m53s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m53s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m53s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m53s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6925
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.22979e-009
+
+Viscosity Solver Iterations: 46
+Estimated Error: 0.000935492
+
+Step Update Time:   0.375
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.031s     1.7%  ||
+Update Liquid Level Set                 0.157s     8.7%  ||||||
+Advect Velocity Field                   0.441s    24.4%  |||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.031s     1.7%  ||
+Apply Viscosity                         0.567s    31.3%  |||||||||||||||||||
+Solve Pressure System                   0.377s    20.8%  |||||||||||||
+Constrain Velocity Fields               0.016s     0.9%  |
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.063s     3.5%  |||
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.063s     3.5%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.063s     3.5%  |||
+
+Frame Time:   1.812
+Total Time:   17.623
+
+------------------------------------------------------------
+26-Jan-2020 00h04m53s
+
+Frame: 8 (Step 1)
+Step time: 0.00833333 (20% of frame)
+
+26-Jan-2020 00h04m53s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m53s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m53s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m54s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m54s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m54s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m54s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m54s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m54s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m54s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m54s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m54s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m54s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m54s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m54s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m54s COMPLETE    Update Fluid Objects
+26-Jan-2020 00h04m54s BEGIN       Generate Output Data
+26-Jan-2020 00h04m54s COMPLETE    Generate Output Data
+26-Jan-2020 00h04m54s BEGIN       Generate Surface Mesh
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6923
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.41692e-009
+
+Viscosity Solver Iterations: 46
+Estimated Error: 0.000907898
+
+Step Update Time:   0.375
+
+------------------------------------------------------------
+26-Jan-2020 00h04m54s
+
+Frame: 8 (Step 2)
+Step time: 0.00833333 (40% of frame)
+
+26-Jan-2020 00h04m54s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m54s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m54s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m54s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m54s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Generate Surface Mesh
+26-Jan-2020 00h04m54s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m54s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m54s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m54s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m54s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m54s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m54s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m54s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m54s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m54s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m54s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m54s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6917
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.5484e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.000955459
+
+Step Update Time:   0.36
+
+------------------------------------------------------------
+26-Jan-2020 00h04m54s
+
+Frame: 8 (Step 3)
+Step time: 0.00833333 (60% of frame)
+
+26-Jan-2020 00h04m54s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m54s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m54s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m54s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m54s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m54s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m54s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m54s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m54s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m54s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m54s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m55s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m55s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m55s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m55s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m55s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m55s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m55s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6916
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.34337e-009
+
+Viscosity Solver Iterations: 47
+Estimated Error: 0.00102167
+
+Step Update Time:   0.344
+
+------------------------------------------------------------
+26-Jan-2020 00h04m55s
+
+Frame: 8 (Step 4)
+Step time: 0.00833333 (80% of frame)
+
+26-Jan-2020 00h04m55s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m55s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m55s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m55s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m55s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m55s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m55s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m55s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m55s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m55s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m55s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m55s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m55s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m55s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m55s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m55s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6912
+
+Pressure Solver Iterations: 28
+Estimated Error: 5.71481e-009
+
+Viscosity Solver Iterations: 44
+Estimated Error: 0.00105534
+
+Step Update Time:   0.359
+
+------------------------------------------------------------
+26-Jan-2020 00h04m55s
+
+Frame: 8 (Step 5)
+Step time: 0.00833333 (100% of frame)
+
+26-Jan-2020 00h04m55s BEGIN       Update Obstacle Objects
+26-Jan-2020 00h04m55s COMPLETE    Update Obstacle Objects
+26-Jan-2020 00h04m55s BEGIN       Update Liquid Level Set
+26-Jan-2020 00h04m55s COMPLETE    Update Liquid Level Set
+26-Jan-2020 00h04m55s BEGIN       Advect Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Advect Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Save Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Save Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Apply Body Forces
+26-Jan-2020 00h04m55s COMPLETE    Apply Body Forces
+26-Jan-2020 00h04m55s BEGIN       Apply Viscosity
+26-Jan-2020 00h04m55s COMPLETE    Apply Viscosity
+26-Jan-2020 00h04m55s BEGIN       Solve Pressure System
+26-Jan-2020 00h04m55s COMPLETE    Solve Pressure System
+26-Jan-2020 00h04m55s BEGIN       Constrain Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Constrain Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Update Marker Particle Velocities
+26-Jan-2020 00h04m55s COMPLETE    Update Marker Particle Velocities
+26-Jan-2020 00h04m55s BEGIN       Delete Saved Velocity Field
+26-Jan-2020 00h04m55s COMPLETE    Delete Saved Velocity Field
+26-Jan-2020 00h04m55s BEGIN       Advect Marker Particles
+26-Jan-2020 00h04m55s COMPLETE    Advect Marker Particles
+26-Jan-2020 00h04m55s BEGIN       Update Fluid Objects
+26-Jan-2020 00h04m55s COMPLETE    Update Fluid Objects
+
+*** Time Step Stats ***
+
+Fluid Particles:   44248
+Fluid Cells:       6911
+
+Pressure Solver Iterations: 29
+Estimated Error: 2.32715e-009
+
+Viscosity Solver Iterations: 45
+Estimated Error: 0.00100673
+
+Step Update Time:   0.375
+
+*** Frame Timing Stats ***
+
+Update Obstacle Objects                 0.049s     2.7%  ||
+Update Liquid Level Set                 0.142s     7.9%  |||||
+Advect Velocity Field                   0.461s    25.4%  ||||||||||||||||
+Save Velocity Field                     0.000s     0.0%  |
+Calculate Surface Curvature             0.000s     0.0%  |
+Apply Body Forces                       0.000s     0.0%  |
+Apply Viscosity                         0.573s    31.6%  |||||||||||||||||||
+Solve Pressure System                   0.365s    20.1%  |||||||||||||
+Constrain Velocity Fields               0.048s     2.6%  ||
+Simulate Diffuse Material               0.000s     0.0%  |
+Update Sheet Seeding                    0.000s     0.0%  |
+Update Marker Particle Velocities       0.032s     1.7%  ||
+Delete Saved Velocity Field             0.000s     0.0%  |
+Advance Marker Particles                0.079s     4.4%  |||
+Update Fluid Objects                    0.000s     0.0%  |
+Output Simulation Data                  0.000s     0.0%  |
+Generate Surface Mesh                   0.064s     3.5%  |||
+
+Frame Time:   1.813
+Total Time:   19.436
+
