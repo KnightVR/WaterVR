@@ -21,4 +21,5 @@ The player can swap between the scenes using the 'A' and 'B' keys. The scene can
 
 ## Credits
 Fluid simulation was done using FLIP Fluids (https://github.com/rlguy/Blender-FLIP-Fluids)
-Using Unity Meta Balls Liquids asset (https://github.com/Nesh108/Unity_MetaBalls_Liquids.git)
+
+Method 3 uses Unity Meta Balls Liquids asset (https://github.com/Nesh108/Unity_MetaBalls_Liquids.git)
