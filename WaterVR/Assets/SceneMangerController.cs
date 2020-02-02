@@ -75,7 +75,7 @@ public class SceneMangerController : MonoBehaviour
         // Manually checking for keydown event on OVR Buttons as GetDown is currently broken
         bool currentFrame_ButtonOne_State = OVRInput.Get(OVRInput.Button.One, controller);
         bool currentFrame_ButtonTwo_State = OVRInput.Get(OVRInput.Button.Two, controller);
-        bool currentFrame_ButtonMiddle_State = OVRInput.Get(OVRInput.Button.PrimaryThumbstick, controller);
+        bool currentFrame_ButtonMiddle_State = OVRInput.Get(OVRInput.Button.SecondaryThumbstick);
         if (currentFrame_ButtonOne_State && !lastFrame_ButtonOne_State)
         {   
             // Change scene on Button One press
