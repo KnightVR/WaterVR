@@ -1,4 +1,4 @@
-# WaterVR v0.1.1
+# WaterVR v0.0.2
 This is a test of using fluid simulation in Blender, for use in Unity VR games and experiences.
 Three scenes demonstrate three different approches to fluid simulation.
 
