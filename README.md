@@ -1,5 +1,5 @@
 # WaterVR v0.0.2
-This is a test environemnt of fluid simulation techiques for use in Unity VR games and experiences.
+Demonstration of different water simulation techiques for use in Unity VR games and experiences.
 Three scenes demonstrate three different approches to fluid simulation.
 
 ## Method 1: Animation Cycle
