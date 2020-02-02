@@ -1,5 +1,5 @@
 ![Image of WaterVR Logo](https://github.com/benknight135/WaterVR/blob/master/Logo.png)
-**v0.0.2**
+**v0.0.3**
 
 Demonstration of different water simulation techiques for use in Unity VR games and experiences.
 Three scenes demonstrate three different approches to fluid simulation.
