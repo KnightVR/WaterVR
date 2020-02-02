@@ -46,10 +46,12 @@ public class FluidParticleController : MonoBehaviour
                         particle_obj.transform.position = particle_position;
                         particle_obj.transform.localScale = particle_size;
                         particle_obj.GetComponent<MeshRenderer>().material = objectMaterial;
+                        /*
                         particle_obj.AddComponent<LineRenderer>();
                         particle_obj.GetComponent<LineRenderer>().positionCount = 2;
                         particle_obj.GetComponent<LineRenderer>().widthMultiplier = 0.2f;
                         particle_obj.GetComponent<LineRenderer>().material = objectMaterial;
+                        */
                         particle_obj.GetComponent<Collider>().enabled = false;
                         particle_objs.Add(particle_obj);
                         // create collider particle

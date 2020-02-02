@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Environment.unity
+    guid: be25cdbef88587744bf40aca947d10cd
+  - enabled: 1
+    path: Assets/Scenes/AnimationCycleFluids.unity
+    guid: 65df7db84f4e0764aa23eb188d3fa90d
+  - enabled: 1
+    path: Assets/Scenes/InteractiveWaterSurfaceFluids.unity
+    guid: 42258658e2d57a14fbd37c3b3f7e1c02
+  - enabled: 1
+    path: Assets/Scenes/MetaBallsFluids.unity
+    guid: 550a9e29acc3df746b22f70540971d1c
+  - enabled: 1
+    path: Assets/Scenes/ParticalFluids.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6f431e25b4e79904d96587c8c582ab4b,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: acdf5caa37de02147a37a295144ea14b,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 05c16e02550496048a1680c474e07733,
+      type: 2}

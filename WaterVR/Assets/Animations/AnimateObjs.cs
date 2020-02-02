@@ -44,7 +44,7 @@ public class AnimateObjs : MonoBehaviour
     {
         if (Time.time > nextActionTime)
         {
-            nextActionTime += period;
+            nextActionTime = Time.time + period;
             // execute block of code here
             UpdateEverySecond();
         }
