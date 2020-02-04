@@ -4,14 +4,14 @@
 Demonstration of different water simulation techiques for use in Unity VR games and experiences.
 Three scenes demonstrate three different approches to fluid simulation.
 
-## Method 1: Animation Cycle
+## Scene 1: Animation Cycle
 Each frame of the animation is exported as an 'obj' file. This is then imported into Unity and cycled using a script.
 See '/Unity/Assets/Animation/AnimateObjs.cs'.
 
-## Method 2: Collision Spheres
+## Scene 2: Collision Spheres
 Spheres with collision are used to represent a fluid. Large amounts of balls are very high load so not really feasiable at scale. 
 
-## Method 3: Animation events
+## Scene 3: Animation events
 Animation events triggered with interactions. There are two animations, one whilst falling and another when the liquid hits the ground. This was created using Unity Meta Balls Liquids asset. 
 
 ## Player Control
